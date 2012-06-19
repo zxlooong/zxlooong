@@ -1,0 +1,43 @@
+#   zxlooong@gmail.com	
+
+#### tmp files & folders
+output/
+tmp_tmp/
+tmp/
+to_tidy/
+.*.swp
+*~
+
+#### windows
+~$*
+desktop.ini
+thumbs.db
+
+#### unix hide files
+#.*
+#.*/
+*.o
+
+#### macosx
+.DS_Store
+*.DS_Store
+._*
+
+#### vc
+ipch/
+Release/
+Release Unicode/
+Debug/
+Debug Unicode/
+*.aps
+*.opt
+*.ncb
+*.plg
+*.positions
+*.dsw
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.filters
+*.vcxproj.user
