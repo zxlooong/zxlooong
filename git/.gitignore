@@ -1,12 +1,20 @@
 #   zxlooong@gmail.com	
 
+#### this project
+
+
 #### tmp files & folders
 output/
 tmp_tmp/
+tmptmp/
 tmp/
 to_tidy/
-.*.swp
+.*.swp   #vim
 *~
+#.gitignore
+*.class
+~$*  #MSoffice
+sys$command
 
 #### windows
 ~$*
@@ -26,18 +34,27 @@ thumbs.db
 #### vc
 ipch/
 Release/
+ReleaseU/
 Release Unicode/
+ReleaseMinDependency/
+ReleaseUMinDependency/
 Debug/
+DebugU/
 Debug Unicode/
+DebugMinDependency/
+DebugUMinDependency/
 *.aps
 *.opt
 *.ncb
 *.plg
 *.positions
 *.dsw
-*.sln
+#*.sln
 *.suo
 *.sdf
 *.opensdf
 *.vcxproj.filters
 *.vcxproj.user
+*_i.c
+*_i.h
+*.vcproj.*

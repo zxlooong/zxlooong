@@ -1,0 +1,7 @@
+[user]
+	name = zxlooong
+	email = zxlooong@gmail.com
+[color]
+	ui = auto
+[core]
+	excludesfile = /Users/zxlooong/.gitignore
