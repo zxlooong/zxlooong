@@ -9,15 +9,18 @@ tmp_tmp/
 tmptmp/
 tmp/
 to_tidy/
+
+#############
 .*.swp   #vim
 *~
 #.gitignore
 *.class
-~$*  #MSoffice
-sys$command
+*.bak
+sys$command  #tgit dcommit temp file
+
 
 #### windows
-~$*
+~$*     #office
 desktop.ini
 thumbs.db
 
