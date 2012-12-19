@@ -22,7 +22,7 @@ sys$command  #tgit dcommit temp file
 #### windows
 ~$*     #office
 desktop.ini
-thumbs.db
+Thumbs.db
 
 #### unix hide files
 #.*
