@@ -5,5 +5,5 @@
 	ui = auto
 [core]
 	excludesfile = /Users/zxlooong/.gitignore
-	autocrlf = false
+	autocrlf = true
 	filemode = false

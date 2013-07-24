@@ -9,30 +9,31 @@ tmp_tmp/
 tmptmp/
 tmp/
 to_tidy/
-
-#############
 .*.swp   #vim
 *~
 #.gitignore
-*.class
 *.bak
 sys$command  #tgit dcommit temp file
+desktop.ini  #windows explorer tmp
+thumbs.db    #windows explorer tmp
+~$*  #MS office
+#.*  #unix hide file
+#.*/ #unix hide folder
+.DS_Store  # macosx finder temp
+*.DS_Store # macosx finder temp
+._*        # macosx finder temp
 
 
-#### windows
-~$*     #office
-desktop.ini
-Thumbs.db
-
-#### unix hide files
-#.*
-#.*/
+#compiled objects
+*.class
 *.o
-
-#### macosx
-.DS_Store
-*.DS_Store
-._*
+*.slo
+*.lo
+#*.so
+#*.dylib
+*.iai
+*.la
+#*.a
 
 #### vc
 ipch/
@@ -54,6 +55,10 @@ DebugUMinDependency/
 *.dsw
 #*.sln
 *.suo
+*.pdb
+*.idb
+*.ilk
+*.exp
 *.sdf
 *.opensdf
 *.vcxproj.filters
