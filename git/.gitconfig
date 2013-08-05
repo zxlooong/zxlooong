@@ -7,3 +7,4 @@
 	excludesfile = /Users/zxlooong/.gitignore
 	autocrlf = true
 	filemode = false
+	editor = vim
