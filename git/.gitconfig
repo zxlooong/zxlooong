@@ -7,3 +7,8 @@
 	autocrlf = true
 	filemode = false
 	editor = vim
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
