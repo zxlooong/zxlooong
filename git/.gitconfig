@@ -7,6 +7,8 @@
 	autocrlf = true
 	filemode = false
 	editor = vim
+	ignorecase = true
+	quetepath = false  # cygwin
 [alias]
 	st = status
 	ci = commit
