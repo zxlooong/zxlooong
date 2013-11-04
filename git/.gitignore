@@ -5,11 +5,10 @@
 
 #### tmp files & folders
 tmp/
-.*.swp   #vim
+.*.swp
 *~
 #.gitignore
 *.bak
-
 
 #compiled objects
 *.class
@@ -23,23 +22,23 @@ tmp/
 #*.a
 
 #### unix & mac
-#.*     #unix hide file
-#.*/    #unix hide folder
+#.*
+#.*/
 
 #### macosx & xcode
 xcuserdata/
-.DS_Store        # macosx finder temp
-.DS_Store?       # macosx finder temp
-*.DS_Store       # macosx finder temp
+.DS_Store
+.DS_Store?
+*.DS_Store
 .Spotlight-V100
 .Trashes
-._*             
+._*
 
 #### windows 
-sys$command  #tgit dcommit temp file
-desktop.ini  #windows explorer tmp
-thumbs.db    #windows explorer tmp
-~$*          #MS office
+sys$command
+desktop.ini
+thumbs.db
+~$*
 
 #### vc
 ipch/
