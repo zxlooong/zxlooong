@@ -4,24 +4,11 @@
 
 
 #### tmp files & folders
-output/
-tmp_tmp/
-tmptmp/
 tmp/
-to_tidy/
 .*.swp   #vim
 *~
 #.gitignore
 *.bak
-sys$command  #tgit dcommit temp file
-desktop.ini  #windows explorer tmp
-thumbs.db    #windows explorer tmp
-~$*  #MS office
-#.*  #unix hide file
-#.*/ #unix hide folder
-.DS_Store  # macosx finder temp
-*.DS_Store # macosx finder temp
-._*        # macosx finder temp
 
 
 #compiled objects
@@ -34,6 +21,22 @@ thumbs.db    #windows explorer tmp
 *.iai
 *.la
 #*.a
+
+#### unix & mac
+#.*     #unix hide file
+#.*/    #unix hide folder
+
+#### macosx & xcode
+xcuserdata/
+.DS_Store    # macosx finder temp
+*.DS_Store   # macosx finder temp
+._*          # macosx finder temp
+
+#### windows 
+sys$command  #tgit dcommit temp file
+desktop.ini  #windows explorer tmp
+thumbs.db    #windows explorer tmp
+~$*          #MS office
 
 #### vc
 ipch/
@@ -52,7 +55,7 @@ DebugUMinDependency/
 *.ncb
 *.plg
 *.positions
-*.dsw
+#*.dsw
 #*.sln
 *.suo
 *.pdb
