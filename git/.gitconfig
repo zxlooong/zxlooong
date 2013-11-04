@@ -8,7 +8,7 @@
 	filemode = false
 	editor = vim
 	ignorecase = true
-	quetepath = false  # cygwin
+	quetepath = false
 [alias]
 	st = status
 	ci = commit
