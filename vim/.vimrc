@@ -138,7 +138,7 @@ endfunction
 	""globle colorscheme""
 	"colors darkblue
 	"colors desert
-	"colors evening
+	colors evening
 	"colors koehler
 	"colors morning
 	"colors murphy
