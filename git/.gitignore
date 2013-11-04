@@ -28,9 +28,12 @@ tmp/
 
 #### macosx & xcode
 xcuserdata/
-.DS_Store    # macosx finder temp
-*.DS_Store   # macosx finder temp
-._*          # macosx finder temp
+.DS_Store        # macosx finder temp
+.DS_Store?       # macosx finder temp
+*.DS_Store       # macosx finder temp
+.Spotlight-V100
+.Trashes
+._*             
 
 #### windows 
 sys$command  #tgit dcommit temp file
