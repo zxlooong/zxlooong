@@ -4,7 +4,8 @@
 [color]
 	ui = auto
 [core]
-	autocrlf = true
+	autocrlf = input
+	safecrlf = true
 	filemode = false
 	editor = vim
 	ignorecase = true
