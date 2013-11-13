@@ -32,6 +32,8 @@ xcuserdata/
 *.DS_Store
 .Spotlight-V100
 .Trashes
+.TemporaryItems
+.fseventsd
 ._*
 
 #### windows 
