@@ -5,7 +5,7 @@
 	ui = auto
 [core]
 	autocrlf = input
-	safecrlf = true
+	safecrlf = warn
 	filemode = false
 	editor = vim
 	ignorecase = true
