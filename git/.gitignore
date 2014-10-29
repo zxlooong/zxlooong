@@ -42,6 +42,13 @@ desktop.ini
 thumbs.db
 ~$*
 
+
+#### idea
+.idea/
+target/
+*.iml
+
+
 #### vc
 ipch/
 Release/
